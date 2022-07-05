@@ -3,6 +3,7 @@ body {
     margin: 0;
 }
 
+
 .banner {
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
@@ -38,4 +39,85 @@ body {
     border-radius: 10px;
     font-weight: 600;
 
+}
+
+
+
+
+
+.doner-sec {
+    text-align: center;
+    margin-top: 270px;
+
+}
+
+.doner-sec h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+
+}
+
+.doner-sec p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #b4b0b0;
+
+}
+
+.box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+
+}
+
+.box {
+    height: 160px;
+    width: 160px;
+    border: 2px;
+    background-color: #f7f6f6;
+    border-radius: 10px;
+    margin: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.box h3 {
+    font-size: 40px;
+    color: #b4b0b0;
+
+
+}
+
+.active {
+    border: 2px solid red;
+    background-color: #e0a9a9;
+}
+
+form {
+    margin-top: 60px;
+}
+
+input {
+    outline: 20px;
+    border-width: 0 0 0;
+    border-color: blue;
+    padding: 10px 30px;
+    width: 40%;
+    text-align: center;
+}
+
+.hr-width {
+    width: 60%;
+}
+
+input::placeholder {
+    font-size: 24px;
+    text-align: center;
 }
