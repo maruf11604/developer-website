@@ -45,20 +45,20 @@ body {
 
 
 
-.doner-sec {
+.donate {
     text-align: center;
     margin-top: 270px;
 
 }
 
-.doner-sec h2 {
+.donate h2 {
     font-family: 'Inter', sans-serif;
     font-size: 55px;
     font-weight: 700;
 
 }
 
-.doner-sec p {
+.donate p {
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 300;
@@ -120,4 +120,50 @@ input {
 input::placeholder {
     font-size: 24px;
     text-align: center;
+}
+
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+
+}
+
+.card {
+    height: 290px;
+    width: 350px;
+    border: 2px solid red;
+    background-color: #f7f6f6;
+    text-align: left;
+    padding: 60px 20px;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+.card h3 {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.card p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.food {
+    background-color: #e1f0f1;
+
+}
+
+.home {
+    background-color: #e2d4d4;
+}
+
+.edu {
+    background-color: #f5efe0;
 }
